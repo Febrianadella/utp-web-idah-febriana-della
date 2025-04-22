@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Halo, Aku Della</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white font-sans">
+
+  <!-- Navigasi -->
+  <header class="bg-black shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-yellow-400">Della</h1>
+      <nav>
+        <ul class="flex space-x-6 text-sm font-medium">
+          <li><a href="index.html" class="hover:text-yellow-400">Beranda</a></li>
+          <li><a href="tentang.html" class="hover:text-yellow-400">Tentang</a></li>
+          <li><a href="karya.html" class="hover:text-yellow-400">Karya</a></li>
+          <li><a href="blog.html" class="hover:text-yellow-400">Blog</a></li>
+          <li><a href="kontak.html" class="hover:text-yellow-400">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex items-center bg-black">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center px-6 gap-12">
+      <!-- Teks -->
+      <div class="flex-1 text-center md:text-left">
+        <h2 class="text-5xl font-extrabold mb-4">Hi, aku Della</h2>
+        <p class="text-xl mb-6 text-gray-300">Mahasiswa Ilmu Komputer</p>
+        <a href="karya.html" class="inline-block bg-yellow-400 text-black px-6 py-3 rounded-full hover:bg-yellow-300 transition font-semibold">
+          Lihat Karya Saya
+        </a>
+      </div>
+      <!-- Gambar -->
+      <div class="flex-1">
+        <img src="assets/img/pp.jpg" alt="Foto Della">
+      </div>
+    </div>
+  </section>
+
+  <!-- Tentang Section -->
+  <section class="py-20 px-6 bg-black">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-4 text-yellow-400">Tentang Web Ini</h3>
+      <p class="text-gray-300 leading-relaxed">
+        Selamat datang di portofolio saya. Website ini saya buat sebagai bagian dari tugas UTP mata kuliah Pemrograman Web. 
+        Di sini, Anda dapat menemukan informasi mengenai diri saya, karya-karya yang telah saya buat, serta beberapa tulisan di blog pribadi saya
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-yellow-400 py-6 text-center text-sm text-white font-semibold">
+    © 2025 Della. Dibuat dengan HTML & Tailwind CSS
+  </footer>
+
+</body>
+</html>
